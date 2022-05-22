@@ -1,0 +1,16 @@
+* {
+    background-color: white;
+    font-family: 'Avenir Next',sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+
+#start-page {
+    justify-content: center;
+    text-align: center;
+}
+
+.timer {
+    justify-content: flex-end;
+}
+
