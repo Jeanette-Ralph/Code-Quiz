@@ -11,16 +11,28 @@
 
     <button id="start">Start</button>
 
-    <div class="timer"></div>
-
-    <div id="generate-quiz">
-        <p id="generate-quiz-queestions"></p>
+    <div id="timer-wrapper">
+        <p>timer: <span id="timer"></span></p>
     </div>
 
+    <div id="generate-quiz"></div>
+
+    <div id="end-score" class="end">
+        <p>Your final score is : <span id="final-score"></span></p>
+        <p> Enter initials: <input id="user-initials"/></p>
+        <button id="submit">Submit</button>
+    </div>
+
+    <div id="high-score-page">
+        <p> Your initials: <span id="high-score-initials"></span></sp></p>
+        <p> Your highscore: <span id="high-score"></span></p>
+    </div>
+
+
     <!-- js script needs to be at end or else it loads the code before the page and doesnt work -->
-    <script src="script.js"></script>
     
 </body>
+<script src="script.js"></script>
 </html>
 
 
@@ -37,58 +49,3 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score -->
 
-
-<!-- <div id="question-one">
-            <h1>A ____ is a special variable, that can hold more than one value.</h1>
-            <ul>
-                <input type="button" value="string"><br>
-
-                <input type="button" value="array"><br>
-
-                <input type="button" value="function"><br>
-            </ul>
-        </div>
-        
-        <div id="question-two">
-            <h1>What does flexbox help with ?</h1>
-            <ul>
-                <input type="button" value="makes it easier to design flexible responsive layout structure without using float or positioning"><br>
-
-                <input type="button" value="creating containers"><br>
-
-                <input type="button" value="styling the background"><br>
-            </ul>
-        </div>
-
-        <div id="question-three">
-            <h1>HTML is a ____ language.</h1>
-            <ul>
-                <input type="button" value="programming"><br>
-
-                <input type="button" value="markdown"><br>
-
-                <input type="button" value="styling"><br>
-            </ul>
-        </div>
-
-        <div id="question-four">
-            <h1>What does a function do ?</h1>
-            <ul>
-                <input type="button" value="can have properties"><br>
-
-                <input type="button" value="is a block of code designed to perform a particular task"><br>
-
-                <input type="button" value="can loop through elements"><br>
-            </ul>
-        </div>
-
-        <div id="question-five">
-            <h1>What is a boolean ?</h1>
-            <ul>
-                <input type="button" value="represents one of two values: true or false"><br>
-
-                <input type="button" value="loops through an array"><br>
-
-                <input type="button" value="a variable that must have a value assigned when declared"><br>
-            </ul>
-        </div> -->

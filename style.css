@@ -10,7 +10,15 @@
     text-align: center;
 }
 
-.timer {
+#timer {
     justify-content: flex-end;
+}
+
+#end-score {
+    display: none;
+}
+
+#high-score-page {
+    display: none;
 }
 
