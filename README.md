@@ -1,6 +1,7 @@
 # Coding-Quiz
-Created a coding quiz where after each question is clicked a new question appears and then the user can submit their initials and their score is saved in local storage. 
 
+## 🚀 Project Details
+Created a coding quiz where after each question is clicked a new question appears and then the user can submit their initials and their score is saved in local storage. 
 
 ## Link to Deployed Website
 [Deployed aplication](https://jeanette-ralph.github.io/Coding-Quiz/)
